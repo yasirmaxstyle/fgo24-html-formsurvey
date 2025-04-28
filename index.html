@@ -8,7 +8,49 @@
 </head>
 
 <body>
-
+    <form>
+        <div>
+            <div><label for="name">Siapa nama anda?</label></div>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <div><label for="age">Berapa umur anda?</label></div>
+            <input type="number" name="age" id="age" min="0">
+        </div>
+        <div>
+            <p>Apa jenis kelamin anda?</p>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Laki-laki</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Perempuan</label>
+        </div>
+        <div>
+            <p>Apakah anda perokok?</p>
+            <input type="radio" name="isSmoker" id="yes">
+            <label for="yes">Ya</label>
+            <input type="radio" name="isSmoker" id="no">
+            <label for="no">Tidak</label>
+        </div>
+        <div>
+            <p>Jika anda perokok, rokok apa yang pernah anda coba?</p>
+            <div>
+                <input type="checkbox" name="brand" id="garpit">
+                <label for="garpit">Gudang Garam Filter</label>
+            </div>
+            <div>
+                <input type="checkbox" name="brand" id="lucky">
+                <label for="lucky">Lucky Strike</label>
+            </div>
+            <div>
+                <input type="checkbox" name="brand" id="marlboro">
+                <label for="marlboro">Marlboro</label>
+            </div>
+            <div>
+                <input type="checkbox" name="brand" id="esse">
+                <label for="esse">Esse</label>
+            </div>
+        </div>
+    </form>
 </body>
 
 </html>
