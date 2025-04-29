@@ -14,6 +14,7 @@
   "license": "ISC",
   "description": "form untuk survey perokok",
   "devDependencies": {
+    "lighthouse": "^12.6.0",
     "live-server": "^1.2.2"
   }
 }
